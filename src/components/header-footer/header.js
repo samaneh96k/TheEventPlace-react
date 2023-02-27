@@ -22,8 +22,9 @@ const Header = () => {
     
   return (
     <AppBar
+      className="appbar"
       position="fixed"
-          style={{ background:  headerShow? "#2f2f2f" :"transparent", boxShadow: "none", padding: "10px 0" }}
+          style={{ background:  headerShow? "#2f2f2f" :"transparent", boxShadow: "none", padding: "10px 0" ,width:"100%",left:0,right:0}}
     >
       <Toolbar>
         <div className="header_logo">

@@ -37,7 +37,7 @@ const Carrousel = () => {
         <div>
           <div
             className="carrousel_image"
-            style={{ background: `url(${img3})`  ,height:`${window.innerHeight}px`}}
+            style={{ background: `url(${img3})`  ,height:`${window.innerHeight}px`,width:`100%`}}
           >
             {" "}
           </div>
